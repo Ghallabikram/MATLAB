@@ -1,0 +1,7 @@
+long=input("donner la longueur de la pièce:");
+larg=input("donner la largeur de la piece:");
+haut=input("donner la hauteur de la piece:");
+volume=long*larg*haut;
+n=volume/8;
+n=ceil(n)
+disp(["le nombre de radiateur:",num2str(n)])
